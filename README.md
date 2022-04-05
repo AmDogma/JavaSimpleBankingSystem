@@ -1,11 +1,13 @@
 # JavaSimpleBankingSystem
 Java simple ATM like program. Using Gradle and JDBC SQL requests
 
+User Input "--"
+
 Examples:
 1. Create an account
 2. Log into account
 0. Exit
->1
+--1
 
 Your card has been created
 Your card number:
@@ -16,7 +18,7 @@ Your card PIN:
 1. Create an account
 2. Log into account
 0. Exit
->1
+--1
 
 Your card has been created
 Your card number:
@@ -27,12 +29,12 @@ Your card PIN:
 1. Create an account
 2. Log into account
 0. Exit
->2
+--2
 
 Enter your card number:
->4000009455296122
+--4000009455296122
 Enter your PIN:
->1961
+--1961
 
 You have successfully logged in!
 
@@ -42,10 +44,10 @@ You have successfully logged in!
 4. Close account
 5. Log out
 0. Exit
->2
+--2
 
 Enter income:
->10000
+--10000
 Income was added!
 
 1. Balance
@@ -54,7 +56,7 @@ Income was added!
 4. Close account
 5. Log out
 0. Exit
->1
+--1
 
 Balance: 10000
 
@@ -64,11 +66,11 @@ Balance: 10000
 4. Close account
 5. Log out
 0. Exit
->3
+--3
 
 Transfer
 Enter card number:
->4000003305160035
+--4000003305160035
 Probably you made a mistake in the card number. Please try again!
 
 1. Balance
@@ -77,11 +79,11 @@ Probably you made a mistake in the card number. Please try again!
 4. Close account
 5. Log out
 0. Exit
->3
+--3
 
 Transfer
 Enter card number:
->4000003305061034
+--4000003305061034
 Such a card does not exist.
 
 1. Balance
@@ -94,9 +96,9 @@ Such a card does not exist.
 
 Transfer
 Enter card number:
->4000003305160034
+--4000003305160034
 Enter how much money you want to transfer:
->15000
+--15000
 Not enough money!
 
 1. Balance
@@ -105,13 +107,13 @@ Not enough money!
 4. Close account
 5. Log out
 0. Exit
->3
+--3
 
 Transfer
 Enter card number:
->4000003305160034
+--4000003305160034
 Enter how much money you want to transfer:
->5000
+--5000
 Success!
 
 1. Balance
@@ -120,7 +122,7 @@ Success!
 4. Close account
 5. Log out
 0. Exit
->1
+--1
 
 Balance: 5000
 
@@ -131,7 +133,7 @@ Balance: 5000
 5. Log out
 0. Exit
 
->0
+--0
 Bye!
 
 
